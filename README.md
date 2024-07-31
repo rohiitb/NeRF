@@ -6,8 +6,8 @@ Pytorch implementation of tiny_nerf
 This is a simple implementation of Neural Radiance Fields. Given a pose and position, a reconstructed image is obtained. The neural network learns the parameters related to the 3D model of the object. 
 
 ## Results:
-<img src=data/output.jpg height="300" width="600" > <p></p>
-Generated image (left), target image (middle) and PSNR vs. iterations graph spanning over 3000 iterations. The model is able to reach 25 PSNR (Peak Signal to Noise Ratio) after 3000 iterations, and is able to perfectly learn the parameters of the 3D model.
+<img src=data/nerf_output.jpg height="300" width="600" > <p></p>
+Generated image (left), target image (middle) and Depth image
 
 
 ## References:
